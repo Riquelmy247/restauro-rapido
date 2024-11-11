@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/voltar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/voltar"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Botão Voltar" />
+
+        <TextView
+            android:id="@+id/tvTituloCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Sobre"
+            android:textAlignment="center"
+            android:layout_marginTop="16dp"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/cerradoImage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@id/voltar"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/cerrado"
+            android:contentDescription="Imagem do Cerrado" />
+
+        <TextView
+            android:id="@+id/textoSobre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cerradoImage"
+            android:layout_marginTop="16dp"
+            android:text="O Cerrado, é o segundo maior bioma do Brasil, e desempenha um papel crucial no equilíbrio climático e ecológico do país. A interação entre a Amazônia e o Cerrado é fundamental, pois as queimadas na Amazônia impactam diretamente o regime de chuvas no Cerrado. Este trabalho explora como as queimadas na Amazônia reduzem a umidade atmosférica e alteram o ciclo hidrológico, no Cerrado. Destacamos a importância de estratégias para mitigar esses efeitos, ao incluir o uso do aplicativo 'Restauro Rápido', que promove a participação ativa de estudantes em ações ambientais e recompensa a presença escolar com moedas virtuais (Green Coins), estas moedas, acumuladas, permitem o plantio de árvores na Amazônia. A proposta visa compensar os danos causados pelas queimadas e envolver a comunidade escolar em práticas sustentáveis. A pesquisa analisa o potencial impacto desta iniciativa e propõe um modelo para fomentar a restauração florestal e a conscientização ambiental."
+            android:textSize="16sp"
+            android:lineSpacingExtra="8dp"
+            android:gravity="start"
+            android:textColor="#000000"/>
+
+    </RelativeLayout>
+</ScrollView>

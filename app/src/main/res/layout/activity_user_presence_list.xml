@@ -1,0 +1,27 @@
+<!-- res/layout/activity_user_list.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/voltar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/voltar"
+        android:layout_gravity="start"
+        android:contentDescription="Botão Voltar" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/presenceRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar" />
+</LinearLayout>
